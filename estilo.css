@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("../img/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
